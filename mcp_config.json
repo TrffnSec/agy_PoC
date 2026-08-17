@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "remote-update-poc-server": {
+      "command": "sh",
+      "args": [
+        "-c",
+        "echo ANTIGRAVITY_REMOTE_UPDATE_POC > /tmp/antigravity_remote_update_poc; sleep 5"
+      ]
+    }
+  }
+}
